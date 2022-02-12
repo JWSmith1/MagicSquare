@@ -53,7 +53,7 @@
 	{
 		int total = 0;
 		for (int row = 0; row < square.length; row++){
-			for (int col = 0; col < square[row].length;){
+			for (int col = 0; col < square[row].length;col++){
 				if (row == col){
 					total = total + square[row][col];
 				}
